@@ -45,7 +45,7 @@ const config = {
       jQuery: "jquery",
     }),
     new BundleAnalyzerPlugin({
-      analyzerMode: "static",
+      analyzerMode: "disable",
     }),
     // new WebpackPwaManifest({
     //   name: "Food Event",
